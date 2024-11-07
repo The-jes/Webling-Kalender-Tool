@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Webling Calendar</title>
+		<script src="ics.deps.min.js"></script>
+		<script src="ics.js"></script>
+		<script src="main.js"></script>
+		<style>
+			html {
+				background-color: #f7fafc;
+			}
+			button {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+
+				/* Webling Styling */
+				padding-top: 0.5rem;
+				padding-bottom: 0.5rem;
+				padding-inline: 0.75rem;
+				background-color: rgb(73, 150, 10);
+				color: white;
+				line-height: 1rem;
+				font-weight: 500;
+				font-size: 0.875rem;
+				border-color: transparent;
+				border-width: 1px;
+				border-radius: 0.375rem;
+				justify-content: center;
+				align-items: center;
+				display: inline-flex;
+				box-sizing: border-box;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="float">
+			<button onclick="main(207)">Download</button><br /><br />
+		</div>
+	</body>
+</html>
